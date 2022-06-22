@@ -1,4 +1,4 @@
-小组成员姓名，学号烦请查看实验报告。
+https://www.datafountain.cn/competitions/518
 
 # 运行
 
