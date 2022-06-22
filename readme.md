@@ -1,6 +1,7 @@
 https://www.datafountain.cn/competitions/518
 
 # 运行
+运行baseline.py前请运行data文件夹下的dataset.py
 
 ##### Linux
 
@@ -31,12 +32,6 @@ CUDA_VISIBLE_DEVICES根据设备上的NVIDIA GPU个数及对应序号可指定�
 由于显卡性能限制，batch_size设置为1（要占8G不到一点的专用显存），如果想要加快训练速度的话可以在显卡承受范围内上调。
 
 迭代轮数EPOCHS也可以调整。
-
-## 实验结果
-
-因为生成的模型过大无法在BB系统上上传，所以没有提交；需要的话请助教联系我们（QQ：2207100509）。  
-
-`baseline_chinese-roberta-wwm-ext-large.tsv`是使用`hfl/chinese-roberta-wwm-ext-large`（bert_id = 0)对数据进行一轮（EPOCHS=1）训练生成的训练模型预测的结果，得分0.63957694295（对应RMSE=0.5635335373217），仅供助教测试提交参考，非我们实际所得的最高分（详情见实验报告）。
 
 ## 其它
 
